@@ -18,4 +18,4 @@ var config = {
 };
 
 var game = new Phaser.Game(config);
-//game.scene.start("awesomeGame", Game, true);
+game.scene.start("gameScene", Game, true);
